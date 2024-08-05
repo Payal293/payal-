@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+    margin: 4;
+    padding: 4;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0fbce7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ff6b6b 3px solid;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header ul {
+    padding: 4;
+    list-style: none;
+  }
+  
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding {
+    float: left;
+  }
+  
+  header #branding h1 {
+    margin: 4;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header .highlight, header .current a {
+    color: #ff6b6b;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    color: #21189e;
+  }
+  
+  /* Showcase */
+  #showcase {
+    min-height: 400px;
+    background: url('showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #ca1bbc;
+  }
+  
+  #showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  
+  #showcase p {
+    font-size: 20px;
+  }
+  
+  /* Partners Section */
+  #partners {
+    padding: 20px 0;
+    background: #d80bce;
+    text-align: center;
+  }
+  
+  #partners h2 {
+    margin-bottom: 20px;
+  }
+  
+  .partner {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .partner img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Footer */
+  footer {
+    background: #0fd13f;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    margin: 4;
+  }
+  
+  footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+  
